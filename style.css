@@ -81,7 +81,7 @@ header{
 /* banner */
 .banner{
   margin-top: 120px;
-    background: url('/asset/bg.jpg');
+    background: url('https://www.iitg.ac.in/clst/assets/images/slider_image/original/1.jpg');
     background-position: center;
     background-size:auto;
     height: 460px;
