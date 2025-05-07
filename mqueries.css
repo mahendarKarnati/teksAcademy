@@ -1,0 +1,205 @@
+.nav1 .locations,.nav1 .socialmedia{
+    display: none;
+}
+.nav1 ul{
+    font-size: 8px;
+    margin-left: -40px;
+}
+header .tekslogo{
+    width: 280px;
+    height: 35px;
+}
+.banner{
+    height: 250px;
+    padding: 0px;
+}
+.banner .left{
+    align-items:flex-start;
+}
+.banner .left img{
+    width: 30px;
+}
+.banner .left p,.banner .left span{
+    font-size: 12px;
+}
+.banner .middle video{
+    width: 220px;
+}
+.successStories .storycards img{
+    width: 215px;
+}
+ .hcompany .left{
+    height: 380px;
+ }
+.hcompany .left img{
+    width: 170px;
+}
+.hcompany .left h1{
+    font-size: 18px;
+}
+.hcompany .left .curveline{
+    width: 200px;
+}
+.hcompany{
+    height: 1000px;
+}
+.hcompany .middle{
+    width: 480px;
+}
+.hcompany .scrolling{
+    width: 480px;
+}
+.professionalsCards{
+    width: 480px;
+    overflow: hidden;
+
+  }
+.working-professionals .professionalsCard{
+    width: 480px;
+    height: 280px;
+    transform: translateX(100%);
+    animation: scrollingPic 80s linear infinite;
+}
+@keyframes scrollingPic {
+    to{
+        transform: translateX(-200%);
+    }
+}
+div h1, .working-professionals h1{
+    font-size: 15px;
+}
+.working-professionals .buttons button{
+    width: 150px;
+    font-size: 14px;
+}
+.popularCourse{
+    width: 100%;
+    padding: 0px;
+}
+.popularCourse .courseCards{
+    gap: 5px;
+}
+.popularCourse .card img{
+    height: 130px;
+}
+.popularCourse .card .logo{
+    height: 40px;
+    width: 130px;
+    top: 38%;
+    left: 15%;
+}
+.popularCourse .content{
+    margin-top: 10px;
+}
+.popularCourse .card{
+    height: 300px;
+    width: 230px;
+}
+.popularCourse .courseName{
+    font-weight: bold;
+    font-size: 12px;
+}
+.popularCourse .description{
+    font-size: 8px;
+}
+.popularCourse .buttons button{
+    width: 80px;
+    font-size: 10px;
+    padding: 0% 0%;
+}
+.guwahatiCards .gcard{
+    width: 90%;
+    height: 100px;
+}
+.guwahati .con{
+    width: 100%;
+}
+img[alt="guwahati"]{
+    width: 90%;
+    height: 300px;
+}
+.ta .taCont{
+    display: flex;
+    flex-direction: column;
+}
+img[alt="logo"]{
+    width: 100px;
+}
+.offers{
+    margin-left: 10px;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.oranget{
+    font-size: 15px;
+}
+.blackt{
+    font-size: 12px;
+}
+.vDotLine{
+    display: none;
+}
+.ta .rcbf{
+    margin-top: 20px;
+    width: 70%;
+}
+.about .aboutTeks img{
+    width: 100%;
+    height: 50%;
+}
+.about .bottom{
+    height: 70px;
+    width: 90%;
+}
+.about .bcard{
+    font-size: 10px;
+}
+.about .bcard img{
+    height: 35px;
+    width: 35px;
+}
+.e-learning{
+    height: 900px;
+}
+.e-learning .left{
+    font-size: 12px;
+    padding: 4%;
+}
+.e-learning .left .apps{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: -40%;
+}
+.e-learning .left .apps a{
+    font-size: small;
+    padding: 10px;
+}
+img[alt='phone']{
+    width: 95%;
+    height: 50%;
+}
+.awards-list{
+    gap: 5px;
+}
+footer .top {
+    font-size: 13px;
+}
+footer .contact a{
+    font-weight: bold;
+}
+footer .right{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .copyrights{
+    height: 80px;
+    font-size: 12px;
+    gap: 2px;
+}
+footer .copyrights p{
+    width: 150px;
+}
