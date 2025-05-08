@@ -5,6 +5,9 @@
     font-size: 8px;
     margin-left: -40px;
 }
+header,.banner,.scroller,.successStories,.hcompany,.working-professionals,.popularCourse,.guwahati,.ta,.career,.about,.e-learning,.awards,.gallery,.feature,footer{
+    width: 480px;
+}
 header .tekslogo{
     width: 280px;
     height: 35px;
@@ -12,16 +15,20 @@ header .tekslogo{
 .banner{
     height: 250px;
     padding: 0px;
+    flex-wrap: nowrap;
+    width: 480px;
 }
 .banner .left{
     align-items:flex-start;
+    width: 100px;
 }
 .banner .left img{
     width: 30px;
 }
-.banner .left p,.banner .left span{
-    font-size: 12px;
+.banner .left p,.banner .left span, .left .talkbtn{
+    font-size: 8px;
 }
+
 .banner .middle video{
     width: 220px;
 }
@@ -73,7 +80,6 @@ div h1, .working-professionals h1{
     font-size: 14px;
 }
 .popularCourse{
-    width: 100%;
     padding: 0px;
 }
 .popularCourse .courseCards{
